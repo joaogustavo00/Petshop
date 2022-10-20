@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+@font-face {
+    font-family: 'really';
+    src: url('fontes/really-petshop-4551.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(#C7A493, #947A6D, #473B35);
+    text-align: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 150px;
+    
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+nav > a {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #947A6D;
+    transition-duration: 3s;
+    background-color: #947a6da8;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    text-align: center;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'really';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 2.3em;
+    color: white;
+}
+
+.servicos-petshop {
+    font-size: 2em;
+    font-family: 'Righteous', sans-serif;
+    color: white;
+
+}
+
+.imagem-banho {
+    height: 330px;
+    padding: 25px;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.conteudo-secundario-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 24px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFF2EF;
+        margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 64px;
+
+}
+
+.cabecalho-01 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px;
+    color:  white;
+}
+
+
+.rodape {
+    padding: 64px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
